@@ -1,0 +1,2345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.2
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Aug 10, 2020 at 12:29 PM
+- Server version: 10.4.13-MariaDB
+- PHP Version: 7.4.8
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="tsetmc" collation="utf8_persian_ci" charset="utf8">
+            <pma:table name="tsetmc_stock_category">
+                CREATE TABLE `tsetmc_stock_category` (
+                  `ID` int(11) NOT NULL AUTO_INCREMENT,
+                  `category_id` varchar(255) COLLATE utf8_persian_ci NOT NULL,
+                  `category_title` varchar(255) COLLATE utf8_persian_ci NOT NULL,
+                  `category_tsetmc_id` varchar(255) COLLATE utf8_persian_ci NOT NULL,
+                  PRIMARY KEY (`ID`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8 COLLATE=utf8_persian_ci;
+            </pma:table>
+            <pma:table name="tsetmc_stock_company">
+                CREATE TABLE `tsetmc_stock_company` (
+                  `ID` int(11) NOT NULL AUTO_INCREMENT,
+                  `name` varchar(255) COLLATE utf8_persian_ci NOT NULL,
+                  `tsetmc_code` varchar(255) COLLATE utf8_persian_ci NOT NULL,
+                  `group_code` varchar(255) COLLATE utf8_persian_ci NOT NULL,
+                  PRIMARY KEY (`ID`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=342 DEFAULT CHARSET=utf8 COLLATE=utf8_persian_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'tsetmc'
+    -->
+    <database name="tsetmc">
+        <!-- Table tsetmc_stock_category -->
+        <table name="tsetmc_stock_category">
+            <column name="ID">1</column>
+            <column name="category_id">01</column>
+            <column name="category_title">زراعت</column>
+            <column name="category_tsetmc_id">34408080767216529</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">2</column>
+            <column name="category_id">10</column>
+            <column name="category_title">ذغال سنگ</column>
+            <column name="category_tsetmc_id">19219679288446732</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">3</column>
+            <column name="category_id">13</column>
+            <column name="category_title">كانه فلزي</column>
+            <column name="category_tsetmc_id">13235969998952202</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">4</column>
+            <column name="category_id">14</column>
+            <column name="category_title">ساير معادن</column>
+            <column name="category_tsetmc_id">62691002126902464</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">5</column>
+            <column name="category_id">17</column>
+            <column name="category_title">منسوجات</column>
+            <column name="category_tsetmc_id">59288237226302898</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">6</column>
+            <column name="category_id">19</column>
+            <column name="category_title">محصولات چرمي</column>
+            <column name="category_tsetmc_id">69306841376553334</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">7</column>
+            <column name="category_id">20</column>
+            <column name="category_title">محصولات چوبي</column>
+            <column name="category_tsetmc_id">58440550086834602</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">8</column>
+            <column name="category_id">21</column>
+            <column name="category_title">محصولات كاغذ</column>
+            <column name="category_tsetmc_id">30106839080444358</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">9</column>
+            <column name="category_id">22</column>
+            <column name="category_title">انتشار و چاپ</column>
+            <column name="category_tsetmc_id">25766336681098389</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">10</column>
+            <column name="category_id">23</column>
+            <column name="category_title">فراورده نفتي</column>
+            <column name="category_tsetmc_id">12331083953323969</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">11</column>
+            <column name="category_id">25</column>
+            <column name="category_title">لاستيك</column>
+            <column name="category_tsetmc_id">36469751685735891</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">12</column>
+            <column name="category_id">27</column>
+            <column name="category_title">فلزات اساسي</column>
+            <column name="category_tsetmc_id">32453344048876642</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">13</column>
+            <column name="category_id">28</column>
+            <column name="category_title">محصولات فلزي</column>
+            <column name="category_tsetmc_id">1123534346391630</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">14</column>
+            <column name="category_id">29</column>
+            <column name="category_title">ماشين آلات</column>
+            <column name="category_tsetmc_id">11451389074113298</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">15</column>
+            <column name="category_id">31</column>
+            <column name="category_title">دستگاههاي برقي</column>
+            <column name="category_tsetmc_id">33878047680249697</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">16</column>
+            <column name="category_id">32</column>
+            <column name="category_title">وسايل ارتباطي</column>
+            <column name="category_tsetmc_id">24733701189547084</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">17</column>
+            <column name="category_id">33</column>
+            <column name="category_title">ابزار پزشكي</column>
+            <column name="category_tsetmc_id">61848754958448778</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">18</column>
+            <column name="category_id">34</column>
+            <column name="category_title">خودرو</column>
+            <column name="category_tsetmc_id">20213770409093165</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">19</column>
+            <column name="category_id">35</column>
+            <column name="category_title">حمل و نقل</column>
+            <column name="category_tsetmc_id">58231368623465359</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">20</column>
+            <column name="category_id">36</column>
+            <column name="category_title">بلمان</column>
+            <column name="category_tsetmc_id">29331053506731535</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">21</column>
+            <column name="category_id">38</column>
+            <column name="category_title">قند و شكر</column>
+            <column name="category_tsetmc_id">21948907150049163</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">22</column>
+            <column name="category_id">39</column>
+            <column name="category_title">چند رشته اي ص</column>
+            <column name="category_tsetmc_id">40355846462826897</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">23</column>
+            <column name="category_id">40</column>
+            <column name="category_title">تامين آب، برق، گاز</column>
+            <column name="category_tsetmc_id">54843635503648458</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">24</column>
+            <column name="category_id">42</column>
+            <column name="category_title">غذايي بجز قند</column>
+            <column name="category_tsetmc_id">15508900928481581</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">25</column>
+            <column name="category_id">43</column>
+            <column name="category_title">مواد دارويي</column>
+            <column name="category_tsetmc_id">3615666621538524</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">26</column>
+            <column name="category_id">44</column>
+            <column name="category_title">شيميايي</column>
+            <column name="category_tsetmc_id">33626672012415176</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">27</column>
+            <column name="category_id">45</column>
+            <column name="category_title">پيمانكاري</column>
+            <column name="category_tsetmc_id">41934470778361119</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">28</column>
+            <column name="category_id">47</column>
+            <column name="category_title">خرده فروشي به جز وسايل نقليه</column>
+            <column name="category_tsetmc_id">65986638607018835</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">29</column>
+            <column name="category_id">49</column>
+            <column name="category_title">کاشي و سراميك</column>
+            <column name="category_tsetmc_id">57616105980228781</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">30</column>
+            <column name="category_id">53</column>
+            <column name="category_title">سيمان</column>
+            <column name="category_tsetmc_id">70077233737515808</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">31</column>
+            <column name="category_id">54</column>
+            <column name="category_title">كاني غيرفلزي</column>
+            <column name="category_tsetmc_id">14651627750314021</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">32</column>
+            <column name="category_id">56</column>
+            <column name="category_title">سرمايه گذاريها</column>
+            <column name="category_tsetmc_id">34295935482222451</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">33</column>
+            <column name="category_id">57</column>
+            <column name="category_title">بانكها</column>
+            <column name="category_tsetmc_id">72002976013856737</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">34</column>
+            <column name="category_id">58</column>
+            <column name="category_title">سايرمالي</column>
+            <column name="category_tsetmc_id">25163959460949732</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">35</column>
+            <column name="category_id">60</column>
+            <column name="category_title">حمل و نقل</column>
+            <column name="category_tsetmc_id">24187097921483699</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">36</column>
+            <column name="category_id">64</column>
+            <column name="category_title">راديويي</column>
+            <column name="category_tsetmc_id">41867092385281437</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">37</column>
+            <column name="category_id">65</column>
+            <column name="category_title">مالي</column>
+            <column name="category_tsetmc_id">61247168213690670</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">38</column>
+            <column name="category_id">67</column>
+            <column name="category_title">اداره بازارهاي مالي</column>
+            <column name="category_tsetmc_id">61985386521682984</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">39</column>
+            <column name="category_id">70</column>
+            <column name="category_title">انبوه سازي</column>
+            <column name="category_tsetmc_id">4654922806626448</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">40</column>
+            <column name="category_id">72</column>
+            <column name="category_title">رايانه</column>
+            <column name="category_tsetmc_id">8900726085939949</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">41</column>
+            <column name="category_id">73</column>
+            <column name="category_title">اطلاعات و ارتباطات</column>
+            <column name="category_tsetmc_id">18780171241610744</column>
+        </table>
+        <table name="tsetmc_stock_category">
+            <column name="ID">42</column>
+            <column name="category_id">74</column>
+            <column name="category_title">فني مهندسي</column>
+            <column name="category_tsetmc_id">47233872677452574</column>
+        </table>
+        <!-- Table tsetmc_stock_company -->
+        <table name="tsetmc_stock_company">
+            <column name="ID">1</column>
+            <column name="name">زپارس</column>
+            <column name="tsetmc_code">33420285433308219</column>
+            <column name="group_code">01</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">2</column>
+            <column name="name">زكوثر</column>
+            <column name="tsetmc_code">42599305106713939</column>
+            <column name="group_code">01</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">3</column>
+            <column name="name">زمگسا</column>
+            <column name="tsetmc_code">5054819322815158</column>
+            <column name="group_code">01</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">4</column>
+            <column name="name">سيمرغ</column>
+            <column name="tsetmc_code">28450080638096732</column>
+            <column name="group_code">01</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">5</column>
+            <column name="name">كطبس</column>
+            <column name="tsetmc_code">8977369674477111</column>
+            <column name="group_code">10</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">6</column>
+            <column name="name">تاصيكو</column>
+            <column name="tsetmc_code">23293437377896568</column>
+            <column name="group_code">13</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">7</column>
+            <column name="name">كاما</column>
+            <column name="tsetmc_code">13235969998952202</column>
+            <column name="group_code">13</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">8</column>
+            <column name="name">كبافق</column>
+            <column name="tsetmc_code">43256212620530446</column>
+            <column name="group_code">13</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">9</column>
+            <column name="name">كچاد</column>
+            <column name="tsetmc_code">18027801615184692</column>
+            <column name="group_code">13</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">10</column>
+            <column name="name">كدما</column>
+            <column name="tsetmc_code">3623921205367364</column>
+            <column name="group_code">13</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">11</column>
+            <column name="name">كروي</column>
+            <column name="tsetmc_code">22787503301679573</column>
+            <column name="group_code">13</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">12</column>
+            <column name="name">كگل</column>
+            <column name="tsetmc_code">35700344742885862</column>
+            <column name="group_code">13</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">13</column>
+            <column name="name">كمنگنز</column>
+            <column name="tsetmc_code">50341528161302545</column>
+            <column name="group_code">13</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">14</column>
+            <column name="name">كنور</column>
+            <column name="tsetmc_code">20411759370751096</column>
+            <column name="group_code">13</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">15</column>
+            <column name="name">ومعادن</column>
+            <column name="tsetmc_code">58931793851445922</column>
+            <column name="group_code">13</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">16</column>
+            <column name="name">كماسه</column>
+            <column name="tsetmc_code">67690708346979840</column>
+            <column name="group_code">14</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">17</column>
+            <column name="name">نبروج</column>
+            <column name="tsetmc_code">60061422939859083</column>
+            <column name="group_code">17</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">18</column>
+            <column name="name">نمرينو</column>
+            <column name="tsetmc_code">30231789123900526</column>
+            <column name="group_code">17</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">19</column>
+            <column name="name">وملي</column>
+            <column name="tsetmc_code">41796741644273824</column>
+            <column name="group_code">19</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">20</column>
+            <column name="name">چفيبر</column>
+            <column name="tsetmc_code">64358061873294912</column>
+            <column name="group_code">20</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">21</column>
+            <column name="name">چكاپا</column>
+            <column name="tsetmc_code">28957320033282870</column>
+            <column name="group_code">21</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">22</column>
+            <column name="name">چكارن</column>
+            <column name="tsetmc_code">53113471126689455</column>
+            <column name="group_code">21</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">23</column>
+            <column name="name">چكاوه</column>
+            <column name="tsetmc_code">24254843881948059</column>
+            <column name="group_code">21</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">24</column>
+            <column name="name">چافست</column>
+            <column name="tsetmc_code">23936607891892333</column>
+            <column name="group_code">22</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">25</column>
+            <column name="name">شبريز</column>
+            <column name="tsetmc_code">48753732042176709</column>
+            <column name="group_code">23</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">26</column>
+            <column name="name">شبندر</column>
+            <column name="tsetmc_code">35366681030756042</column>
+            <column name="group_code">23</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">27</column>
+            <column name="name">شبهرن</column>
+            <column name="tsetmc_code">22667016906590506</column>
+            <column name="group_code">23</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">28</column>
+            <column name="name">شپنا</column>
+            <column name="tsetmc_code">7745894403636165</column>
+            <column name="group_code">23</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">29</column>
+            <column name="name">شتران</column>
+            <column name="tsetmc_code">51617145873056483</column>
+            <column name="group_code">23</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">30</column>
+            <column name="name">شسپا</column>
+            <column name="tsetmc_code">49188729526980541</column>
+            <column name="group_code">23</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">31</column>
+            <column name="name">شنفت</column>
+            <column name="tsetmc_code">14073782708315535</column>
+            <column name="group_code">23</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">32</column>
+            <column name="name">ونفت</column>
+            <column name="tsetmc_code">33931218652865616</column>
+            <column name="group_code">23</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">33</column>
+            <column name="name">پاسا</column>
+            <column name="tsetmc_code">63580313877463104</column>
+            <column name="group_code">25</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">34</column>
+            <column name="name">پتاير</column>
+            <column name="tsetmc_code">41935584690956944</column>
+            <column name="group_code">25</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">35</column>
+            <column name="name">پدرخش</column>
+            <column name="tsetmc_code">24079409192818584</column>
+            <column name="group_code">25</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">36</column>
+            <column name="name">پسهند</column>
+            <column name="tsetmc_code">10120557300120078</column>
+            <column name="group_code">25</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">37</column>
+            <column name="name">پكرمان</column>
+            <column name="tsetmc_code">23214828924506640</column>
+            <column name="group_code">25</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">38</column>
+            <column name="name">پكوير</column>
+            <column name="tsetmc_code">7235435095059069</column>
+            <column name="group_code">25</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">39</column>
+            <column name="name">پلاسك</column>
+            <column name="tsetmc_code">57722642338781674</column>
+            <column name="group_code">25</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">40</column>
+            <column name="name">فاسمين</column>
+            <column name="tsetmc_code">66701874099226162</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">41</column>
+            <column name="name">فايرا</column>
+            <column name="tsetmc_code">65004959184388996</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">42</column>
+            <column name="name">فباهنر</column>
+            <column name="tsetmc_code">66772024744156373</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">43</column>
+            <column name="name">فپنتا</column>
+            <column name="tsetmc_code">68488673556087148</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">44</column>
+            <column name="name">فجر</column>
+            <column name="tsetmc_code">41302553376174581</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">45</column>
+            <column name="name">فخاس</column>
+            <column name="tsetmc_code">4733285133017464</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">46</column>
+            <column name="name">فخوز</column>
+            <column name="tsetmc_code">28864540805361867</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">47</column>
+            <column name="name">فرآور</column>
+            <column name="tsetmc_code">408934423224097</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">48</column>
+            <column name="name">فروس</column>
+            <column name="tsetmc_code">54419429862704331</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">49</column>
+            <column name="name">فسازان</column>
+            <column name="tsetmc_code">12874072841236826</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">50</column>
+            <column name="name">فسپا</column>
+            <column name="tsetmc_code">8977441217024425</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">51</column>
+            <column name="name">فسرب</column>
+            <column name="tsetmc_code">54277068923045214</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">52</column>
+            <column name="name">فلوله</column>
+            <column name="tsetmc_code">48623320733330408</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">53</column>
+            <column name="name">فمراد</column>
+            <column name="tsetmc_code">18004480270695404</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">54</column>
+            <column name="name">فملي</column>
+            <column name="tsetmc_code">35425587644337450</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">55</column>
+            <column name="name">فنوال</column>
+            <column name="tsetmc_code">57875847776839336</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">56</column>
+            <column name="name">فنورد</column>
+            <column name="tsetmc_code">56324206651661881</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">57</column>
+            <column name="name">فولاد</column>
+            <column name="tsetmc_code">46348559193224090</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">58</column>
+            <column name="name">فولاژ</column>
+            <column name="tsetmc_code">40808043719554948</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">59</column>
+            <column name="name">كاوه</column>
+            <column name="tsetmc_code">60350996279289099</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">60</column>
+            <column name="name">كوير</column>
+            <column name="tsetmc_code">43545527030854340</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">61</column>
+            <column name="name">وتوكا</column>
+            <column name="tsetmc_code">47232550823972469</column>
+            <column name="group_code">27</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">62</column>
+            <column name="name">چدن</column>
+            <column name="tsetmc_code">12329519546621752</column>
+            <column name="group_code">28</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">63</column>
+            <column name="name">فاذر</column>
+            <column name="tsetmc_code">38547060135156069</column>
+            <column name="group_code">28</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">64</column>
+            <column name="name">فاراك</column>
+            <column name="tsetmc_code">20865316761157979</column>
+            <column name="group_code">28</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">65</column>
+            <column name="name">فاما</column>
+            <column name="tsetmc_code">34673681828119297</column>
+            <column name="group_code">28</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">66</column>
+            <column name="name">فجام</column>
+            <column name="tsetmc_code">30765727085936322</column>
+            <column name="group_code">28</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">67</column>
+            <column name="name">فلامي</column>
+            <column name="tsetmc_code">25286509736208688</column>
+            <column name="group_code">28</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">68</column>
+            <column name="name">تايرا</column>
+            <column name="tsetmc_code">19298748452450329</column>
+            <column name="group_code">29</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">69</column>
+            <column name="name">تپمپي</column>
+            <column name="tsetmc_code">43062880954780884</column>
+            <column name="group_code">29</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">70</column>
+            <column name="name">تكشا</column>
+            <column name="tsetmc_code">62258804563636993</column>
+            <column name="group_code">29</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">71</column>
+            <column name="name">تكمبا</column>
+            <column name="tsetmc_code">30719054967088301</column>
+            <column name="group_code">29</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">72</column>
+            <column name="name">تكنو</column>
+            <column name="tsetmc_code">3654864906585643</column>
+            <column name="group_code">29</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">73</column>
+            <column name="name">تمحركه</column>
+            <column name="tsetmc_code">15826229869421585</column>
+            <column name="group_code">29</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">74</column>
+            <column name="name">لابسا</column>
+            <column name="tsetmc_code">63363116407864462</column>
+            <column name="group_code">29</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">75</column>
+            <column name="name">لبوتان</column>
+            <column name="tsetmc_code">30650426998863332</column>
+            <column name="group_code">29</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">76</column>
+            <column name="name">لخزر</column>
+            <column name="tsetmc_code">65414507129586385</column>
+            <column name="group_code">29</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">77</column>
+            <column name="name">لسرما</column>
+            <column name="tsetmc_code">55897939403232751</column>
+            <column name="group_code">29</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">78</column>
+            <column name="name">وتوشه</column>
+            <column name="tsetmc_code">54676885047867737</column>
+            <column name="group_code">29</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">79</column>
+            <column name="name">بالبر</column>
+            <column name="tsetmc_code">62952165421099192</column>
+            <column name="group_code">31</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">80</column>
+            <column name="name">بترانس</column>
+            <column name="tsetmc_code">46752599569017089</column>
+            <column name="group_code">31</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">81</column>
+            <column name="name">بسويچ</column>
+            <column name="tsetmc_code">47377315952751604</column>
+            <column name="group_code">31</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">82</column>
+            <column name="name">بشهاب</column>
+            <column name="tsetmc_code">69454539056549106</column>
+            <column name="group_code">31</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">83</column>
+            <column name="name">بكاب</column>
+            <column name="tsetmc_code">70219663893822560</column>
+            <column name="group_code">31</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">84</column>
+            <column name="name">بكام</column>
+            <column name="tsetmc_code">22382156782768756</column>
+            <column name="group_code">31</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">85</column>
+            <column name="name">بموتو</column>
+            <column name="tsetmc_code">22086876724551482</column>
+            <column name="group_code">31</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">86</column>
+            <column name="name">بنيرو</column>
+            <column name="tsetmc_code">20453828618330936</column>
+            <column name="group_code">31</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">87</column>
+            <column name="name">لپارس</column>
+            <column name="tsetmc_code">5187018329202415</column>
+            <column name="group_code">32</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">88</column>
+            <column name="name">آكنتور</column>
+            <column name="tsetmc_code">44834847569322522</column>
+            <column name="group_code">33</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">89</column>
+            <column name="name">خاذين</column>
+            <column name="tsetmc_code">42075223783409640</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">90</column>
+            <column name="name">خاهن</column>
+            <column name="tsetmc_code">7483280423474368</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">91</column>
+            <column name="name">خبهمن</column>
+            <column name="tsetmc_code">26824673819862694</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">92</column>
+            <column name="name">خپارس</column>
+            <column name="tsetmc_code">42354736493447489</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">93</column>
+            <column name="name">خپويش</column>
+            <column name="tsetmc_code">4758266259250794</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">94</column>
+            <column name="name">ختراك</column>
+            <column name="tsetmc_code">22903901709044823</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">95</column>
+            <column name="name">ختور</column>
+            <column name="tsetmc_code">50185721305191887</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">96</column>
+            <column name="name">ختوقا</column>
+            <column name="tsetmc_code">70289374539527245</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">97</column>
+            <column name="name">خچرخش</column>
+            <column name="tsetmc_code">33783140337377394</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">98</column>
+            <column name="name">خريخت</column>
+            <column name="tsetmc_code">12752224677923341</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">99</column>
+            <column name="name">خرينگ</column>
+            <column name="tsetmc_code">45895339414786358</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">100</column>
+            <column name="name">خزاميا</column>
+            <column name="tsetmc_code">2589887561569709</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">101</column>
+            <column name="name">خزر</column>
+            <column name="tsetmc_code">32821908911812078</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">102</column>
+            <column name="name">خساپا</column>
+            <column name="tsetmc_code">44891482026867833</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">103</column>
+            <column name="name">خشرق</column>
+            <column name="tsetmc_code">63915926161403347</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">104</column>
+            <column name="name">خفنر</column>
+            <column name="tsetmc_code">28033133021443774</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">105</column>
+            <column name="name">خكار</column>
+            <column name="tsetmc_code">59217041815333317</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">106</column>
+            <column name="name">خكمك</column>
+            <column name="tsetmc_code">19257295292088310</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">107</column>
+            <column name="name">خگستر</column>
+            <column name="tsetmc_code">48990026850202503</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">108</column>
+            <column name="name">خلنت</column>
+            <column name="tsetmc_code">14957056743925737</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">109</column>
+            <column name="name">خمحركه</column>
+            <column name="tsetmc_code">39436183727126211</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">110</column>
+            <column name="name">خمحور</column>
+            <column name="tsetmc_code">7457232989848872</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">111</column>
+            <column name="name">خمهر</column>
+            <column name="tsetmc_code">17330546482145553</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">112</column>
+            <column name="name">خموتور</column>
+            <column name="tsetmc_code">57273529732791251</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">113</column>
+            <column name="name">خنصير</column>
+            <column name="tsetmc_code">17834623106317041</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">114</column>
+            <column name="name">خودرو</column>
+            <column name="tsetmc_code">65883838195688438</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">115</column>
+            <column name="name">خوساز</column>
+            <column name="tsetmc_code">31879190587976736</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">116</column>
+            <column name="name">ورنا</column>
+            <column name="tsetmc_code">7385624172574740</column>
+            <column name="group_code">34</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">117</column>
+            <column name="name">قپيرا</column>
+            <column name="tsetmc_code">67030488744129337</column>
+            <column name="group_code">38</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">118</column>
+            <column name="name">قثابت</column>
+            <column name="tsetmc_code">44967158778304588</column>
+            <column name="group_code">38</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">119</column>
+            <column name="name">قزوين</column>
+            <column name="tsetmc_code">15259343650667588</column>
+            <column name="group_code">38</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">120</column>
+            <column name="name">قشكر</column>
+            <column name="tsetmc_code">35964395659427029</column>
+            <column name="group_code">38</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">121</column>
+            <column name="name">قشهد</column>
+            <column name="tsetmc_code">37631109616997982</column>
+            <column name="group_code">38</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">122</column>
+            <column name="name">قصفها</column>
+            <column name="tsetmc_code">40411537531154482</column>
+            <column name="group_code">38</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">123</column>
+            <column name="name">قلرست</column>
+            <column name="tsetmc_code">56820995669577571</column>
+            <column name="group_code">38</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">124</column>
+            <column name="name">قمرو</column>
+            <column name="tsetmc_code">43342306308122676</column>
+            <column name="group_code">38</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">125</column>
+            <column name="name">قنيشا</column>
+            <column name="tsetmc_code">63380098535169030</column>
+            <column name="group_code">38</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">126</column>
+            <column name="name">قهكمت</column>
+            <column name="tsetmc_code">14398278072324784</column>
+            <column name="group_code">38</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">127</column>
+            <column name="name">شستا</column>
+            <column name="tsetmc_code">2400322364771558</column>
+            <column name="group_code">39</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">128</column>
+            <column name="name">واميد</column>
+            <column name="tsetmc_code">52232388263291380</column>
+            <column name="group_code">39</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">129</column>
+            <column name="name">وبانك</column>
+            <column name="tsetmc_code">48010225447410247</column>
+            <column name="group_code">39</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">130</column>
+            <column name="name">وصندوق</column>
+            <column name="tsetmc_code">37204371816016200</column>
+            <column name="group_code">39</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">131</column>
+            <column name="name">وغدير</column>
+            <column name="tsetmc_code">26014913469567886</column>
+            <column name="group_code">39</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">132</column>
+            <column name="name">آبادا</column>
+            <column name="tsetmc_code">37661500521100963</column>
+            <column name="group_code">40</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">133</column>
+            <column name="name">بفجر</column>
+            <column name="tsetmc_code">46178280540110577</column>
+            <column name="group_code">40</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">134</column>
+            <column name="name">مبين</column>
+            <column name="tsetmc_code">27922860956133067</column>
+            <column name="group_code">40</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">135</column>
+            <column name="name">غاذر</column>
+            <column name="tsetmc_code">35158826900216508</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">136</column>
+            <column name="name">غالبر</column>
+            <column name="tsetmc_code">24303422207378456</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">137</column>
+            <column name="name">غبشهر</column>
+            <column name="tsetmc_code">42387718866026650</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">138</column>
+            <column name="name">غبهنوش</column>
+            <column name="tsetmc_code">17059960254855208</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">139</column>
+            <column name="name">غپاك</column>
+            <column name="tsetmc_code">34032872653290886</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">140</column>
+            <column name="name">غپينو</column>
+            <column name="tsetmc_code">18401147983387689</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">141</column>
+            <column name="name">غچين</column>
+            <column name="tsetmc_code">44850033148208596</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">142</column>
+            <column name="name">غدام</column>
+            <column name="tsetmc_code">2254054929817435</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">143</column>
+            <column name="name">غدشت</column>
+            <column name="tsetmc_code">2434703913394836</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">144</column>
+            <column name="name">غزر</column>
+            <column name="tsetmc_code">4369934250728330</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">145</column>
+            <column name="name">غسالم</column>
+            <column name="tsetmc_code">28672095850798501</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">146</column>
+            <column name="name">غشاذر</column>
+            <column name="tsetmc_code">59921975187856916</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">147</column>
+            <column name="name">غشان</column>
+            <column name="tsetmc_code">31791737198597563</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">148</column>
+            <column name="name">غشصفا</column>
+            <column name="tsetmc_code">61506294208022391</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">149</column>
+            <column name="name">غشهد</column>
+            <column name="tsetmc_code">20487994977117557</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">150</column>
+            <column name="name">غگرجي</column>
+            <column name="tsetmc_code">31024260997481994</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">151</column>
+            <column name="name">غگل</column>
+            <column name="tsetmc_code">22299894048845903</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">152</column>
+            <column name="name">غمارگ</column>
+            <column name="tsetmc_code">52975109254504632</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">153</column>
+            <column name="name">غمهرا</column>
+            <column name="tsetmc_code">6131290133202745</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">154</column>
+            <column name="name">غنوش</column>
+            <column name="tsetmc_code">48619517949257749</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">155</column>
+            <column name="name">وبشهر</column>
+            <column name="tsetmc_code">13937270451301973</column>
+            <column name="group_code">42</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">156</column>
+            <column name="name">بركت</column>
+            <column name="tsetmc_code">34557241988629814</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">157</column>
+            <column name="name">تيپيكو</column>
+            <column name="tsetmc_code">29758477602878557</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">158</column>
+            <column name="name">دابور</column>
+            <column name="tsetmc_code">61332057061846617</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">159</column>
+            <column name="name">دارو</column>
+            <column name="tsetmc_code">67988012428906654</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">160</column>
+            <column name="name">داسوه</column>
+            <column name="tsetmc_code">12387472624849835</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">161</column>
+            <column name="name">دالبر</column>
+            <column name="tsetmc_code">60451823714332895</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">162</column>
+            <column name="name">دامين</column>
+            <column name="tsetmc_code">50100062518826135</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">163</column>
+            <column name="name">دپارس</column>
+            <column name="tsetmc_code">70474983732269112</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">164</column>
+            <column name="name">دتماد</column>
+            <column name="tsetmc_code">34641719089573667</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">165</column>
+            <column name="name">دجابر</column>
+            <column name="tsetmc_code">33406621820337161</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">166</column>
+            <column name="name">ددام</column>
+            <column name="tsetmc_code">66450490505950110</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">167</column>
+            <column name="name">درازك</column>
+            <column name="tsetmc_code">22255783119783047</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">168</column>
+            <column name="name">دروز</column>
+            <column name="tsetmc_code">40262275031537922</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">169</column>
+            <column name="name">دزهراوي</column>
+            <column name="tsetmc_code">8915450910866216</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">170</column>
+            <column name="name">دسبحا</column>
+            <column name="tsetmc_code">43622578471330344</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">171</column>
+            <column name="name">دسبحان</column>
+            <column name="tsetmc_code">5866848234665627</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">172</column>
+            <column name="name">دسينا</column>
+            <column name="tsetmc_code">11432067920374603</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">173</column>
+            <column name="name">دشيمي</column>
+            <column name="tsetmc_code">33603212156438463</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">174</column>
+            <column name="name">دعبيد</column>
+            <column name="tsetmc_code">49054891736433700</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">175</column>
+            <column name="name">دفارا</column>
+            <column name="tsetmc_code">56550776668133562</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">176</column>
+            <column name="name">دفرا</column>
+            <column name="tsetmc_code">18303237082155264</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">177</column>
+            <column name="name">دكوثر</column>
+            <column name="tsetmc_code">23353689102956991</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">178</column>
+            <column name="name">دكيمي</column>
+            <column name="tsetmc_code">20024911381434086</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">179</column>
+            <column name="name">دلر</column>
+            <column name="tsetmc_code">4384288570322406</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">180</column>
+            <column name="name">دلقما</column>
+            <column name="tsetmc_code">29247915161590165</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">181</column>
+            <column name="name">ديران</column>
+            <column name="tsetmc_code">69090868458637360</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">182</column>
+            <column name="name">شفا</column>
+            <column name="tsetmc_code">36899214178084525</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">183</column>
+            <column name="name">والبر</column>
+            <column name="tsetmc_code">57944184894703821</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">184</column>
+            <column name="name">وپخش</column>
+            <column name="tsetmc_code">7183333492448248</column>
+            <column name="group_code">43</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">185</column>
+            <column name="name">پارس</column>
+            <column name="tsetmc_code">6110133418282108</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">186</column>
+            <column name="name">پارسان</column>
+            <column name="tsetmc_code">23441366113375722</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">187</column>
+            <column name="name">پاكشو</column>
+            <column name="tsetmc_code">62786156501584862</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">188</column>
+            <column name="name">پترول</column>
+            <column name="tsetmc_code">69143674941561637</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">189</column>
+            <column name="name">تاپيكو</column>
+            <column name="tsetmc_code">22560050433388046</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">190</column>
+            <column name="name">جم</column>
+            <column name="tsetmc_code">32357363984168442</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">191</column>
+            <column name="name">جم پيلن</column>
+            <column name="tsetmc_code">27096851668435724</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">192</column>
+            <column name="name">خراسان</column>
+            <column name="tsetmc_code">43552974795606067</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">193</column>
+            <column name="name">شاراك</column>
+            <column name="tsetmc_code">7711282667602555</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">194</column>
+            <column name="name">شاملا</column>
+            <column name="tsetmc_code">16959429956899455</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">195</column>
+            <column name="name">شپارس</column>
+            <column name="tsetmc_code">61102694810476197</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">196</column>
+            <column name="name">شپاكسا</column>
+            <column name="tsetmc_code">11622051128546106</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">197</column>
+            <column name="name">شپديس</column>
+            <column name="tsetmc_code">20562694899904339</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">198</column>
+            <column name="name">شخارك</column>
+            <column name="tsetmc_code">70934270174405743</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">199</column>
+            <column name="name">شدوص</column>
+            <column name="tsetmc_code">40611478183231802</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">200</column>
+            <column name="name">شسينا</column>
+            <column name="tsetmc_code">30974710508383145</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">201</column>
+            <column name="name">شفارس</column>
+            <column name="tsetmc_code">43781018754867729</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">202</column>
+            <column name="name">شفن</column>
+            <column name="tsetmc_code">65122215875355555</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">203</column>
+            <column name="name">شكربن</column>
+            <column name="tsetmc_code">27308217070238237</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">204</column>
+            <column name="name">شكلر</column>
+            <column name="tsetmc_code">62177651435283872</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">205</column>
+            <column name="name">شگل</column>
+            <column name="tsetmc_code">44153164692325703</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">206</column>
+            <column name="name">شلعاب</column>
+            <column name="tsetmc_code">39116664428676213</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">207</column>
+            <column name="name">شوينده</column>
+            <column name="tsetmc_code">3493306453706327</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">208</column>
+            <column name="name">شيراز</column>
+            <column name="tsetmc_code">38568786927478796</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">209</column>
+            <column name="name">شيران</column>
+            <column name="tsetmc_code">35796086458096255</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">210</column>
+            <column name="name">فارس</column>
+            <column name="tsetmc_code">25244329144808274</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">211</column>
+            <column name="name">قرن</column>
+            <column name="tsetmc_code">39610074039667804</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">212</column>
+            <column name="name">كرماشا</column>
+            <column name="tsetmc_code">38437201078089290</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">213</column>
+            <column name="name">نوري</column>
+            <column name="tsetmc_code">19040514831923530</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">214</column>
+            <column name="name">وپترو</column>
+            <column name="tsetmc_code">59486059679335017</column>
+            <column name="group_code">44</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">215</column>
+            <column name="name">افق</column>
+            <column name="tsetmc_code">49502666250908008</column>
+            <column name="group_code">47</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">216</column>
+            <column name="name">كپارس</column>
+            <column name="tsetmc_code">9698674686691945</column>
+            <column name="group_code">49</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">217</column>
+            <column name="name">كترام</column>
+            <column name="tsetmc_code">24085906177899789</column>
+            <column name="group_code">49</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">218</column>
+            <column name="name">كحافظ</column>
+            <column name="tsetmc_code">32257753560585502</column>
+            <column name="group_code">49</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">219</column>
+            <column name="name">كساوه</column>
+            <column name="tsetmc_code">25001509088465005</column>
+            <column name="group_code">49</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">220</column>
+            <column name="name">كسعدي</column>
+            <column name="tsetmc_code">29122854902865456</column>
+            <column name="group_code">49</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">221</column>
+            <column name="name">كلوند</column>
+            <column name="tsetmc_code">32678431934327184</column>
+            <column name="group_code">49</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">222</column>
+            <column name="name">ساراب</column>
+            <column name="tsetmc_code">4563413583000719</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">223</column>
+            <column name="name">ساربيل</column>
+            <column name="tsetmc_code">34890845654517313</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">224</column>
+            <column name="name">ساروم</column>
+            <column name="tsetmc_code">15949743338644220</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">225</column>
+            <column name="name">سبجنو</column>
+            <column name="tsetmc_code">66295665969375744</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">226</column>
+            <column name="name">سبهان</column>
+            <column name="tsetmc_code">32525655729432562</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">227</column>
+            <column name="name">سپاها</column>
+            <column name="tsetmc_code">35669480110084448</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">228</column>
+            <column name="name">ستران</column>
+            <column name="tsetmc_code">30829203706095076</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">229</column>
+            <column name="name">سخاش</column>
+            <column name="tsetmc_code">4470657233334072</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">230</column>
+            <column name="name">سخزر</column>
+            <column name="tsetmc_code">67327029014085707</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">231</column>
+            <column name="name">سخوز</column>
+            <column name="tsetmc_code">41974758296041288</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">232</column>
+            <column name="name">سدشت</column>
+            <column name="tsetmc_code">27000326841257664</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">233</column>
+            <column name="name">سدور</column>
+            <column name="tsetmc_code">27218386411183410</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">234</column>
+            <column name="name">سرود</column>
+            <column name="tsetmc_code">11964419322927535</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">235</column>
+            <column name="name">سشرق</column>
+            <column name="tsetmc_code">26997316501080743</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">236</column>
+            <column name="name">سشمال</column>
+            <column name="tsetmc_code">6757220448540984</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">237</column>
+            <column name="name">سصفها</column>
+            <column name="tsetmc_code">10568944722570445</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">238</column>
+            <column name="name">سصوفي</column>
+            <column name="tsetmc_code">13227300125161435</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">239</column>
+            <column name="name">سغرب</column>
+            <column name="tsetmc_code">52220424531578944</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">240</column>
+            <column name="name">سفار</column>
+            <column name="tsetmc_code">41227201752535311</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">241</column>
+            <column name="name">سفارس</column>
+            <column name="tsetmc_code">15521712617204216</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">242</column>
+            <column name="name">سفانو</column>
+            <column name="tsetmc_code">4528607775462304</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">243</column>
+            <column name="name">سقاين</column>
+            <column name="tsetmc_code">60654872678917533</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">244</column>
+            <column name="name">سكرد</column>
+            <column name="tsetmc_code">65321970913593427</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">245</column>
+            <column name="name">سكرما</column>
+            <column name="tsetmc_code">15472396110662150</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">246</column>
+            <column name="name">سمازن</column>
+            <column name="tsetmc_code">33808206014018431</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">247</column>
+            <column name="name">سنير</column>
+            <column name="tsetmc_code">14231831499205396</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">248</column>
+            <column name="name">سهرمز</column>
+            <column name="tsetmc_code">29747059672582491</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">249</column>
+            <column name="name">سهگمت</column>
+            <column name="tsetmc_code">41284516796232939</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">250</column>
+            <column name="name">سيتا</column>
+            <column name="tsetmc_code">10171945867136336</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">251</column>
+            <column name="name">سيدكو</column>
+            <column name="tsetmc_code">37281199178613855</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">252</column>
+            <column name="name">سيلام</column>
+            <column name="tsetmc_code">14617104402836487</column>
+            <column name="group_code">53</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">253</column>
+            <column name="name">كاذر</column>
+            <column name="tsetmc_code">49353447565507376</column>
+            <column name="group_code">54</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">254</column>
+            <column name="name">كپشير</column>
+            <column name="tsetmc_code">57639364758870873</column>
+            <column name="group_code">54</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">255</column>
+            <column name="name">كخاك</column>
+            <column name="tsetmc_code">16405556680571453</column>
+            <column name="group_code">54</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">256</column>
+            <column name="name">كرازي</column>
+            <column name="tsetmc_code">57086055330734195</column>
+            <column name="group_code">54</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">257</column>
+            <column name="name">كساپا</column>
+            <column name="tsetmc_code">28325731560106431</column>
+            <column name="group_code">54</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">258</column>
+            <column name="name">كسرا</column>
+            <column name="tsetmc_code">4614779520007780</column>
+            <column name="group_code">54</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">259</column>
+            <column name="name">كسرام</column>
+            <column name="tsetmc_code">20560887114747719</column>
+            <column name="group_code">54</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">260</column>
+            <column name="name">كفپارس</column>
+            <column name="tsetmc_code">19471788163911687</column>
+            <column name="group_code">54</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">261</column>
+            <column name="name">كفرا</column>
+            <column name="tsetmc_code">23837844039713715</column>
+            <column name="group_code">54</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">262</column>
+            <column name="name">كگاز</column>
+            <column name="tsetmc_code">62346804681275278</column>
+            <column name="group_code">54</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">263</column>
+            <column name="name">كهمدا</column>
+            <column name="tsetmc_code">67206358287598044</column>
+            <column name="group_code">54</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">264</column>
+            <column name="name">پرديس</column>
+            <column name="tsetmc_code">15039949673085566</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">265</column>
+            <column name="name">واتي</column>
+            <column name="tsetmc_code">33541897671561960</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">266</column>
+            <column name="name">واعتبار</column>
+            <column name="tsetmc_code">47841327496247362</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">267</column>
+            <column name="name">وبهمن</column>
+            <column name="tsetmc_code">18063426072758458</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">268</column>
+            <column name="name">وبوعلي</column>
+            <column name="tsetmc_code">28328710198554144</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">269</column>
+            <column name="name">وبيمه</column>
+            <column name="tsetmc_code">11773403764702778</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">270</column>
+            <column name="name">وتوسم</column>
+            <column name="tsetmc_code">17528249960294496</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">271</column>
+            <column name="name">وتوصا</column>
+            <column name="tsetmc_code">2944500421562364</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">272</column>
+            <column name="name">وخارزم</column>
+            <column name="tsetmc_code">7395271748414592</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">273</column>
+            <column name="name">وساپا</column>
+            <column name="tsetmc_code">37614886280396031</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">274</column>
+            <column name="name">وسپه</column>
+            <column name="tsetmc_code">2328862017676109</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">275</column>
+            <column name="name">وسكاب</column>
+            <column name="tsetmc_code">11258722998911897</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">276</column>
+            <column name="name">وصنا</column>
+            <column name="tsetmc_code">46982154647719707</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">277</column>
+            <column name="name">وصنعت</column>
+            <column name="tsetmc_code">57309221039930244</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">278</column>
+            <column name="name">ونيرو</column>
+            <column name="tsetmc_code">62603302940123327</column>
+            <column name="group_code">40</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">279</column>
+            <column name="name">ونيكي</column>
+            <column name="tsetmc_code">25336820825905643</column>
+            <column name="group_code">56</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">280</column>
+            <column name="name">وانصار</column>
+            <column name="tsetmc_code">49776615757150035</column>
+            <column name="group_code">57</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">281</column>
+            <column name="name">وبصادر</column>
+            <column name="tsetmc_code">28320293733348826</column>
+            <column name="group_code">57</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">282</column>
+            <column name="name">وبملت</column>
+            <column name="tsetmc_code">778253364357513</column>
+            <column name="group_code">57</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">283</column>
+            <column name="name">وپارس</column>
+            <column name="tsetmc_code">33293588228706998</column>
+            <column name="group_code">57</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">284</column>
+            <column name="name">وپاسار</column>
+            <column name="tsetmc_code">9536587154100457</column>
+            <column name="group_code">57</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">285</column>
+            <column name="name">وپست</column>
+            <column name="tsetmc_code">22087269603540841</column>
+            <column name="group_code">57</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">286</column>
+            <column name="name">وتجارت</column>
+            <column name="tsetmc_code">63917421733088077</column>
+            <column name="group_code">57</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">287</column>
+            <column name="name">وخاور</column>
+            <column name="tsetmc_code">47333458678352378</column>
+            <column name="group_code">57</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">288</column>
+            <column name="name">وسينا</column>
+            <column name="tsetmc_code">45050389997905274</column>
+            <column name="group_code">57</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">289</column>
+            <column name="name">وكار</column>
+            <column name="tsetmc_code">47996917271187218</column>
+            <column name="group_code">57</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">290</column>
+            <column name="name">ونوين</column>
+            <column name="tsetmc_code">47302318535715632</column>
+            <column name="group_code">57</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">291</column>
+            <column name="name">وايران</column>
+            <column name="tsetmc_code">3149396562827132</column>
+            <column name="group_code">58</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">292</column>
+            <column name="name">ولپارس</column>
+            <column name="tsetmc_code">48241092863917835</column>
+            <column name="group_code">58</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">293</column>
+            <column name="name">ولساپا</column>
+            <column name="tsetmc_code">45174198424472334</column>
+            <column name="group_code">58</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">294</column>
+            <column name="name">ولصنم</column>
+            <column name="tsetmc_code">71744682148776880</column>
+            <column name="group_code">58</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">295</column>
+            <column name="name">ولغدر</column>
+            <column name="tsetmc_code">23086515493897579</column>
+            <column name="group_code">58</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">296</column>
+            <column name="name">ولملت</column>
+            <column name="tsetmc_code">11403770140000603</column>
+            <column name="group_code">58</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">297</column>
+            <column name="name">وليز</column>
+            <column name="tsetmc_code">20946530370469828</column>
+            <column name="group_code">58</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">298</column>
+            <column name="name">حپترو</column>
+            <column name="tsetmc_code">16369313804633525</column>
+            <column name="group_code">60</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">299</column>
+            <column name="name">حتايد</column>
+            <column name="tsetmc_code">3722699128879020</column>
+            <column name="group_code">60</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">300</column>
+            <column name="name">حتوكا</column>
+            <column name="tsetmc_code">22260326095996531</column>
+            <column name="group_code">60</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">301</column>
+            <column name="name">حفارس</column>
+            <column name="tsetmc_code">35424116338766901</column>
+            <column name="group_code">60</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">302</column>
+            <column name="name">حكشتي</column>
+            <column name="tsetmc_code">60610861509165508</column>
+            <column name="group_code">60</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">303</column>
+            <column name="name">اخابر</column>
+            <column name="tsetmc_code">22811176775480091</column>
+            <column name="group_code">64</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">304</column>
+            <column name="name">همراه</column>
+            <column name="tsetmc_code">68635710163497089</column>
+            <column name="group_code">64</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">305</column>
+            <column name="name">آسيا</column>
+            <column name="tsetmc_code">51106317433079213</column>
+            <column name="group_code">66</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">306</column>
+            <column name="name">البرز</column>
+            <column name="tsetmc_code">70270965300262393</column>
+            <column name="group_code">66</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">307</column>
+            <column name="name">اميد</column>
+            <column name="tsetmc_code">18599703143458101</column>
+            <column name="group_code">67</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">308</column>
+            <column name="name">امين</column>
+            <column name="tsetmc_code">58873907630765023</column>
+            <column name="group_code">67</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">309</column>
+            <column name="name">انرژي3</column>
+            <column name="tsetmc_code">49641108336531623</column>
+            <column name="group_code">67</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">310</column>
+            <column name="name">پارسيان</column>
+            <column name="tsetmc_code">9481703061634967</column>
+            <column name="group_code">66</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">311</column>
+            <column name="name">تملت</column>
+            <column name="tsetmc_code">11129387075131725</column>
+            <column name="group_code">67</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">312</column>
+            <column name="name">تنوين</column>
+            <column name="tsetmc_code">25357135030606405</column>
+            <column name="group_code">67</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">313</column>
+            <column name="name">دانا</column>
+            <column name="tsetmc_code">48511238766369097</column>
+            <column name="group_code">66</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">314</column>
+            <column name="name">كالا</column>
+            <column name="tsetmc_code">44549439964296944</column>
+            <column name="group_code">67</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">315</column>
+            <column name="name">لوتوس</column>
+            <column name="tsetmc_code">59142194115401696</column>
+            <column name="group_code">67</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">316</column>
+            <column name="name">ما</column>
+            <column name="tsetmc_code">29860265627578401</column>
+            <column name="group_code">66</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">317</column>
+            <column name="name">ملت</column>
+            <column name="tsetmc_code">13611044044646901</column>
+            <column name="group_code">66</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">318</column>
+            <column name="name">بورس</column>
+            <column name="tsetmc_code">60523145697836739</column>
+            <column name="group_code">67</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">319</column>
+            <column name="name">ثاباد</column>
+            <column name="tsetmc_code">59612098290740355</column>
+            <column name="group_code">70</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">320</column>
+            <column name="name">ثاخت</column>
+            <column name="tsetmc_code">17800036702302776</column>
+            <column name="group_code">70</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">321</column>
+            <column name="name">ثامان</column>
+            <column name="tsetmc_code">66456062140680461</column>
+            <column name="group_code">70</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">322</column>
+            <column name="name">ثشاهد</column>
+            <column name="tsetmc_code">63481599728522324</column>
+            <column name="group_code">70</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">323</column>
+            <column name="name">ثشرق</column>
+            <column name="tsetmc_code">6043384171800349</column>
+            <column name="group_code">70</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">324</column>
+            <column name="name">ثفارس</column>
+            <column name="tsetmc_code">30852391633490755</column>
+            <column name="group_code">70</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">325</column>
+            <column name="name">ثمسكن</column>
+            <column name="tsetmc_code">3863538898378476</column>
+            <column name="group_code">70</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">326</column>
+            <column name="name">ثنوسا</column>
+            <column name="tsetmc_code">32845891587040106</column>
+            <column name="group_code">70</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">327</column>
+            <column name="name">وآذر</column>
+            <column name="tsetmc_code">1358190916156744</column>
+            <column name="group_code">70</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">328</column>
+            <column name="name">وتوس</column>
+            <column name="tsetmc_code">68117765376081366</column>
+            <column name="group_code">70</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">329</column>
+            <column name="name">وساخت</column>
+            <column name="tsetmc_code">25514780181345713</column>
+            <column name="group_code">70</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">330</column>
+            <column name="name">آپ</column>
+            <column name="tsetmc_code">55254206302462116</column>
+            <column name="group_code">72</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">331</column>
+            <column name="name">پرداخت</column>
+            <column name="tsetmc_code">59607545337891226</column>
+            <column name="group_code">72</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">332</column>
+            <column name="name">رانفور</column>
+            <column name="tsetmc_code">40505767672724777</column>
+            <column name="group_code">72</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">333</column>
+            <column name="name">رتاپ</column>
+            <column name="tsetmc_code">41048299027409941</column>
+            <column name="group_code">72</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">334</column>
+            <column name="name">ركيش</column>
+            <column name="tsetmc_code">27952969918967492</column>
+            <column name="group_code">72</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">335</column>
+            <column name="name">سپ</column>
+            <column name="tsetmc_code">71856634742001725</column>
+            <column name="group_code">72</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">336</column>
+            <column name="name">سيستم</column>
+            <column name="tsetmc_code">47749661205825616</column>
+            <column name="group_code">72</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">337</column>
+            <column name="name">مداران</column>
+            <column name="tsetmc_code">65999092673039059</column>
+            <column name="group_code">72</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">338</column>
+            <column name="name">مرقام</column>
+            <column name="tsetmc_code">23838634016123354</column>
+            <column name="group_code">72</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">339</column>
+            <column name="name">هاي وب</column>
+            <column name="tsetmc_code">43362635835198978</column>
+            <column name="group_code">73</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">340</column>
+            <column name="name">رتكو</column>
+            <column name="tsetmc_code">3823243780502959</column>
+            <column name="group_code">74</column>
+        </table>
+        <table name="tsetmc_stock_company">
+            <column name="ID">341</column>
+            <column name="name">رمپنا</column>
+            <column name="tsetmc_code">67126881188552864</column>
+            <column name="group_code">74</column>
+        </table>
+    </database>
+</pma_xml_export>
