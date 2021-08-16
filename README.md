@@ -6,6 +6,7 @@ tsetmc dataset - iranian stock
 * Last Update: 1 january, 2021
 * Data format: JSON, SQL Data
 * Contribute: Fork and Push Requests :)
+* DOI : 10.34740/kaggle/dsv/2528297
 
 ## جزئیات دیتاست
 
